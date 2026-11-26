@@ -1,0 +1,17 @@
+{
+  "name": "ceo-summit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test flow.test.mjs"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "private": true,
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
